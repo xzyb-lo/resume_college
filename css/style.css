@@ -1,0 +1,264 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: "Noto Serif TC";
+}
+
+p,a, input,  textarea,span.ul,li{
+    font-family: "Open Sans", sans-serif;
+}
+
+.btn{
+    background-color: rgba(82, 114, 105, 0.9);
+    color: white;
+    padding: 8px 22px;
+    border-radius: 17px;
+}
+h3{
+    font-size: 30px;
+    font-weight: 550;
+    line-height: 1.5;
+    display: inline-block;
+    box-shadow: inset 0 -0.35em rgba(82, 144, 105, 0.6);
+    margin-bottom: 40px;
+}
+p{
+    color: #707070;
+}
+p.lead{
+    color: black;
+}
+img{
+    max-width: 100%;
+}
+
+
+/* Color Theme Swatches in Hex */
+.Holiday-Cheer-1-hex { color: #024554; }
+.Holiday-Cheer-2-hex { color: #53736A; }
+.Holiday-Cheer-3-hex { color: #6A8C69; }
+.Holiday-Cheer-4-hex { color: #A8B545; }
+.Holiday-Cheer-5-hex { color: #C2C0A6; }
+
+/* Color Theme Swatches in RGBA */
+.Holiday-Cheer-1-rgba { color: rgba(2, 68, 84, 1); }
+.Holiday-Cheer-2-rgba { color: rgba(82, 114, 105, 1); }
+.Holiday-Cheer-3-rgba { color: rgba(105, 140, 105, 1); }
+.Holiday-Cheer-4-rgba { color: rgba(168, 181, 68, 1); }
+.Holiday-Cheer-5-rgba { color: rgba(193, 191, 165, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Holiday-Cheer-1-hsla { color: hsla(190, 95, 16, 1); }
+.Holiday-Cheer-2-hsla { color: hsla(163, 16, 38, 1); }
+.Holiday-Cheer-3-hsla { color: hsla(118, 14, 48, 1); }
+.Holiday-Cheer-4-hsla { color: hsla(66, 44, 49, 1); }
+.Holiday-Cheer-5-hsla { color: hsla(55, 18, 70, 1); }
+
+header .container{
+    width: 76%;
+    height: 70px;
+}
+nav li{
+    margin: 0 13px;
+    margin-top: 8px;
+}
+
+
+#top{
+    background-color: darkgray;
+}
+#top .jumbotron{
+    height: 70vh;
+}
+#top h1{
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+#top .container{
+    position: relative;
+    top: 55%;
+    transform: translateY(-50%);
+}
+
+#intro{
+    padding: 80px 0px;
+}
+#intro h3{
+    margin-bottom: 80px;
+}
+#intro img{
+    width: 100px;
+    border-radius: 100%;
+    margin-bottom: 13px;
+}
+
+#content{
+    padding: 80px 0px;
+    background-color: rgb(248, 248, 248);
+    margin-bottom: 80px;
+}
+#content h3{
+    margin-bottom: 80px;
+}
+#content .outer{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.08);
+    margin-bottom: 30px;
+}
+#content img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+#content a{
+    color: black;
+    text-decoration: none;
+}
+#content a:hover{
+    text-decoration: underline;
+}
+#content .upper{
+    position: relative;
+}
+#content .innertext{
+    position: absolute;
+    bottom: 20px;
+    left: 22px;
+}
+#content .innertext span{
+    font-size: 12px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+#content .innertext h5{
+    font-size: 18px;
+    margin-top: 18px;
+}
+#content .lower{
+    padding: 8px 2px 20px 22px;
+}
+#content .lower h4{
+    font-size: 24px;
+    margin-top: 12PX;
+    margin-bottom: 12px;
+}
+#content .lower i{
+    margin-right: 11px;
+}
+
+#qna{
+    padding: 20px 0 80px 0;
+}
+#qna h3{
+    margin-bottom: 50px;
+}
+#qna input{
+    margin-bottom: 10px;
+}
+
+footer{
+    width: 100%;
+    border-top: solid 1px #c9c9c9;
+    padding: 80px;
+}
+footer h4{
+    margin-bottom: 30px;
+}
+footer ul{
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;  
+}
+footer ul li {
+    flex: 1; 
+    text-align: center;
+  }
+footer ul li a{
+    color: #707070;
+    text-decoration: none;
+}
+footer p a{
+    color: #024554;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+@media (max-width: 992px) {
+    #content .lower h4{
+        font-size: 18px !important;
+    }
+    #content .innertext h5{
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 768px){
+    
+    #top .jumbotron{
+        height: 60vh;
+    }
+    #top .container{
+        width: 70%;
+        position: relative;
+        top: 60%;
+        transform: translateY(-50%);
+    }
+    #top h1{
+        font-size: 34px;
+    }
+
+    #intro h3{
+        margin-bottom: 40px;
+    }
+    #intro img{
+        margin-bottom: 20px;
+    }
+    #intro h5{
+        margin-bottom: 50px;
+    }
+    #content h3{
+        margin-bottom: 40px;
+    }
+    #content .container{
+        width: 80%;
+    }
+    #content .outer{
+        border-radius: 15px;
+        margin-bottom: 40px;
+    }
+    #content .outer img{
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+    }
+    #content .lower h4{
+        font-size: 24px !important;
+    }
+    #content .innertext h5{
+        font-size: 18px !important;
+    }
+
+    #qna .container{
+        width: 80%;
+    }
+
+    footer h4{
+        margin-bottom: 18px;
+    }
+    footer ul{
+        margin-bottom: 35px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px){
+    footer ul{
+    flex-direction: column;
+    align-items: flex-start; 
+    gap: 12px;
+    }
+}
