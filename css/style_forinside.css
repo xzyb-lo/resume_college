@@ -2,7 +2,7 @@ h1,h2,h3,h4,h5,h6{
     font-family: "Noto Serif TC";
 }
 
-p,a, input,  textarea,span.ul,li{
+p, a, input,  textarea,span.ul,li{
     font-family: "Open Sans", sans-serif;
 }
 
@@ -27,7 +27,8 @@ h4{
     margin-bottom: 40px;
 }
 h5{
-    text-decoration: underline;
+    font-weight: 750;
+   
     margin-bottom: 20px;
 }
 p{
@@ -37,6 +38,8 @@ p{
 }
 p.lead{
     color: black;
+    font-size: 22px;
+    font-weight: 500;
     
 }
 img{
@@ -109,7 +112,7 @@ nav li{
     background-color: rgb(248, 248, 248);
     margin-bottom: 80px;
 }
-#content .gap{
+#content .pg{
     margin-bottom: 120px;
 }
 #content .row{
@@ -129,8 +132,8 @@ nav li{
     border-radius: 10px 10px 0 0;
 }
 #content a{
-    color: black;
-    text-decoration: none;
+    color: #024554;
+    text-decoration: underline;
 }
 #content a:hover{
     text-decoration: underline;
